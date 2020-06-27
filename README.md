@@ -4,7 +4,7 @@
 ~
 ❯ cd ~
 
-## create a new file called as install_zsh.sh
+## create a new file called as install_oh-my-zsh_ubuntu.sh
 ~
 ❯ touch install_oh-my-zsh_ubuntu.sh
 
