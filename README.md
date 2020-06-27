@@ -1,0 +1,1 @@
+# install_oh-my-zsh
