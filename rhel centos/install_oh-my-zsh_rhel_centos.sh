@@ -7,7 +7,7 @@ echo "--------------------------------------------------------------------------
 echo ""
 
 # Update RHEL/CentOS
-sudo yum check-Update
+sudo yum check-update
 sudo yum groupinstall -y "Development Tools"
 sudo yum clean all
 sudo yum update -y
@@ -56,13 +56,8 @@ cd zsh-zsh-5.8
 sudo ./Util/preconfig
 sudo ./configure
 sudo make && sudo make install
-# https://askubuntu.com/questions/812420/chsh-always-asking-a-password-and-get-pam-authentication-failure
-sudo sed s/required/sufficient/g -i /etc/pam.d/chsh
 echo /usr/local/bin/zsh | sudo tee -a /etc/shells
 echo "$USER" | chsh -s /usr/local/bin/zsh
-# https://askubuntu.com/questions/812420/chsh-always-asking-a-password-and-get-pam-authentication-failure
-# revert back to original setting
-sudo sed s/sufficient/required/g -i /etc/pam.d/chsh
 
 echo ""
 echo "--------------------------------------------------------------------------------"
