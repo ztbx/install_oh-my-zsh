@@ -4,7 +4,7 @@
 ~
 ❯ cd ~
 
-## create a new file called as install_oh-my-zsh_ubuntu.sh
+## create a new file called as `install_oh-my-zsh_ubuntu.sh`
 ~
 ❯ touch install_oh-my-zsh_ubuntu.sh
 
@@ -12,10 +12,10 @@
 ~
 ❯ chmod 777 install_oh-my-zsh_ubuntu.sh
 
-## copy contents from ubuntu/install_oh-my-zsh_ubuntu.sh 
+## copy contents from `ubuntu/install_oh-my-zsh_ubuntu.sh`
 ~
 ❯ vim install_oh-my-zsh_ubuntu.sh
 
 ## run the script
 ~
-❯ ./install_zsh.sh
+❯ ./install_oh-my-zsh_ubuntu.sh 
